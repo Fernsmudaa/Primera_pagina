@@ -1,0 +1,81 @@
+header {
+  background-color: rgb(245, 244, 244);
+  padding: 20px 0;
+}
+.imagen_portada {
+  width: 40%;
+}
+.portada {
+  width: 940px;
+  position: relative;
+  margin: 0 auto;
+}
+nav {
+  position: absolute;
+  top: 20%;
+  right: 0;
+}
+nav li {
+  display: inline;
+  font-style: italic;
+  margin: 0 0 0 15px;
+}
+nav a {
+  text-transform: uppercase;
+  color: rgb(51, 32, 32);
+  font-weight: bold;
+  font-size: 22px;
+  text-decoration: none;
+}
+.personajes_principales {
+  display: inline-flex;
+  margin: 0 auto;
+}
+.personajes_principales li {
+  padding: 30px 20px;
+  text-align: center;
+  vertical-align: top;
+  background: rgba(210, 210, 210, 0.737);
+  margin: 0 1.5%;
+  box-sizing: border-box;
+  margin-top: 30px;
+  border: 2px solid rgb(0, 0, 0);
+  border-radius: 10px;
+}
+h2 {
+  padding: 20px;
+}
+.personajes_principales li:hover {
+  border-color: rgb(189, 27, 27);
+  font-size: 33px;
+}
+.personajes_principales li:active {
+  border-color: rgb(0, 0, 180);
+}
+.personajes_principales {
+  font-size: 30px;
+  font-weight: bold;
+  color: rgb(51, 32, 32);
+}
+.definicion01 {
+  font-size: 18px;
+  color: rgb(107, 27, 27);
+  padding: 5%;
+}
+
+nav a:hover {
+  color: rgb(189, 27, 27);
+  text-decoration: underline;
+}
+footer {
+  text-align: center;
+  background: url(https://img.freepik.com/vector-gratis/fondo-telarana-halloween-realista_23-2149090360.jpg?w=360);
+
+  margin: 20px;
+  padding: 40px;
+}
+.ferns {
+  color: aliceblue;
+  text-align: 30px;
+  margin: 20px;
+}

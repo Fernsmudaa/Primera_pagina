@@ -1,0 +1,40 @@
+p {
+  text-align: center;
+  font-style: italic;
+}
+
+body {
+  background: #cccccc;
+}
+h1 {
+  color: rgb(233, 88, 88);
+}
+img {
+  width: 100%;
+}
+.Introduccion {
+  background: white;
+  padding: 20px;
+}
+.Reparto {
+  background: white;
+}
+.Reseña {
+  padding: 20px;
+}
+.items {
+  font-style: italic;
+}
+ul {
+  display: inline-block;
+  vertical-align: top;
+  width: 30%;
+  margin-right: 15%;
+}
+.imagenReparto {
+  width: 50%;
+}
+.titulo-centralizado {
+  text-align: center;
+  padding: 50px;
+}
